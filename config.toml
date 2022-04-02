@@ -1,4 +1,4 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://wiki.connerv.com/"
 languageCode = "en-us"
 googleAnalytics = "G-XYFD95KB4J"
 pygmentsUseClasses = true
@@ -28,3 +28,5 @@ enableGitInfo = true
         lineNumbersInTable = true
         style = "dracula"
         tabWidth = 4
+    [markup.goldmark.renderer]
+        unsafe = true

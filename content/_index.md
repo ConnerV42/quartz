@@ -1,26 +1,14 @@
 ---
-title: 🪴 Quartz 3
+title: cvwiki
+disableToc: true
 ---
-Host your second brain and [digital garden](https://jzhao.xyz/posts/digital-gardening) for free. Quartz features
-1. Extremely fast full-text search by pressing `/`
-2. Display for backlinks of each note
-3. Fully customizable local graph view
-4. Endlessly powerful page and theme customization using CSS
-5. Automatically generated tag and section lists of content
-6. Beautiful link previews
 
-## Get Started
-> 📚 [Setup your own digital garden using Quartz](notes/setup.md)
+Welcome to cvwiki, my personal web of knowledge. Feel free to bookmark this web page. I update this site often, and continuously collect knowledge and refine ideas here.
 
-Not convinced yet? Look at some [community digital gardens](notes/showcase.md) built with Quartz, or read about [why I made Quartz](notes/philosophy.md) to begin with!
+Each new post (or update to an existing post) can be found in chronological order [here](/notes).
 
-## Content Lists
-If you prefer browsing the contents of this site through a list instead of a graph, you can find content lists here too:
-
-- [All Notes](/notes)
-- [Setup-related Notes](/tags/setup)
-
-## Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+## Wikis
+- [Software Engineering Wiki](/notes/software-engineering.md)
+- [Crypto Wiki](/notes/crypto.md)
+- [Recipe Wiki](/notes/recipes.md)
+- [News, Articles, Sites, Blogs, and Poems](/notes/news-articles-sites-blogs-poems.md)

@@ -3,5 +3,7 @@ public
 resources
 .idea
 content/.obsidian
+content/private/**
 data/linkIndex.yaml
 data/contentIndex.yaml
+.hugo_build.lock

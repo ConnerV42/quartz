@@ -1,13 +1,10 @@
-name: Jacky Zhao
+name: Conner Verret
 enableToc: true
 enableLinkPreview: true
 description:
-  Here is the page description. This is an example Quartz site that details installation,
-  setup, customization, and troubleshooting for Quartz itself.
+  cvwiki
 page_title:
-  "🪴 Quartz 3"
-links:
-  - link_name: Twitter
-    link: https://twitter.com/_jzhao
-  - link_name: Github
-    link: https://github.com/jackyzha0
+  "cvwiki"
+# links:
+ # - link_name: Github
+ #   link: https://github.com/
