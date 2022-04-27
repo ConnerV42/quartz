@@ -6,11 +6,12 @@ disableToc: false
 ---
 
 Brain dump of everything software engineering related.
-## Programming Languages
+## Languages & Frameworks
 - [Spring Boot](/notes/spring-boot.md)
 - [Node](/notes/node.md)
 - [Python](/notes/python.md)
 - [Rust](/notes/rust.md)
+- [GraphQL](/private/graph-ql-priv.md)
 ## CLI
 - [Bash](/notes/bash.md)
 - [Unix Commands](unix-commands.md)
@@ -35,6 +36,7 @@ Brain dump of everything software engineering related.
 - [Intellij](intellij.md)
 ## Cloud
 - [GCP Wiki](/notes/gcp-wiki.md)
-## Online Resources
+## Misc.
+- [Bitcoin](/notes/bitcoin.md)
 - [Awesome Git Repositories](/notes/awesome-git-repositories.md)
 - [Tech Articles](/notes/tech-articles.md)

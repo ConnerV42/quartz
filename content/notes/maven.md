@@ -10,6 +10,13 @@ disableToc: false
 - [Apache Maven Docs: Maven CI Friendly Versions](https://maven.apache.org/maven-ci-friendly.html)
 - [Apache Maven Docs: Maven Plugins](https://maven.apache.org/plugins/index.html)
 	- [Difference b/t Common Maven Plugins](https://stackoverflow.com/questions/38548271/difference-between-maven-plugins-assembly-plugins-jar-plugins-shaded-plugi)
+
+## Maven Commands
+- To view the versions of every dependency used throughout your maven project:
+```
+mvn dependency:tree
+```
+	
 ## Maven Build Lifecycle
 - [Quick Summary of Maven Build Lifecycle from the Apache Website](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html#maven-phases)
 ### Clean

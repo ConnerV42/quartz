@@ -1,5 +1,5 @@
 ---
-title: "Unix Commands Commands"
+title: "Unix Commands "
 tags:
 - software-engineering
 - linux
@@ -8,6 +8,7 @@ tags:
 disableToc: false
 ---
 
+## Cheat Sheets
 - [Stanford's Basic Unix Commands](http://mally.stanford.edu/~sr/computing/basic-unix.html)
 
 ## Users / Groups
@@ -71,3 +72,9 @@ ifconfig -a
 
 ## Change Ownership of Symlink
 - `chown -h USER:GROUP jre` if you want to change the ownership of the symlink itself, not the destination directory
+ 
+## What's using this port?
+- Handly command on MacOS to check what's taking up a port
+```
+sudo lsof -i :3306
+```

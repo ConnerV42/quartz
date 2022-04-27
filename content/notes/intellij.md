@@ -5,6 +5,18 @@ tags:
 disableToc: true
 ---
 
+- Open/Close Terminal
+```
+option + fn + f12
+```
+ 
+- Open/Close Project Explorer
+```
+cmd + 1
+```
+
+- If you'd like to view files in an open Intellij project across multiple monitors, simply drag a file off screen onto another monitor screen to initiate that behavior.
+
 - Views -> Tool Windows -> Database
 
 - In a running debugger, you can add a new Watcher, with the following command, to allow you to pretty print your object as JSON. Good for generating test data for Unit Tests when working in IntelliJ

@@ -7,8 +7,9 @@ Welcome to cvwiki, my personal web of knowledge. Feel free to bookmark this web 
 
 Each new post (or update to an existing post) can be found in chronological order [here](/notes).
 
+A full text search can be performed with `ctrl + k`.
+
 ## Wikis
 - [Software Engineering Wiki](/notes/software-engineering.md)
-- [Crypto Wiki](/notes/crypto.md)
 - [Recipe Wiki](/notes/recipes.md)
 - [News, Articles, Sites, Blogs, and Poems](/notes/news-articles-sites-blogs-poems.md)
