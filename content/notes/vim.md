@@ -6,7 +6,7 @@ disableToc: false
 ---
 
 ## Why Vim?
-Learning to use Vim is worth it for several reasons. First, Vim (or vi) is almost guaranteed to be installed on any remote server you may need to ssh into. Second, although Vim was released in 1991, it's widely available as a plugin on modern IDEs, like Intellij, VS Code, Eclipse, etc. Third, once you're comfortable with the controls, Vim allows you to quickly navigate to any place on the page with precision. Combining that with the ability to record chains of commands and replay them, it allows for programmatic editing of files on the fly. Once you're comfortable with Vim, you have a text editor at your service that you can on virtually any server.
+Learning to use Vim is worth it for several reasons. First, Vim (or vi) is almost guaranteed to be installed on any remote server you may need to ssh into. Second, although Vim was released in 1991, it’s widely available as a plugin on modern IDEs, like Intellij, VS Code, Eclipse, etc. Third, once you’re comfortable with the controls, Vim allows you to quickly navigate to any place on the page with precision. Combining that with the ability to record chains of commands and replay them, it allows for programmatic editing of files on the fly. Once you’re comfortable with Vim, you have a text editor at your service that you can on virtually any server.
 
 ## Vim Commands
 - [Vim Cheat Sheet](https://vim.rtorr.com/)

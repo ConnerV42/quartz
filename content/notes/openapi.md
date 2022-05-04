@@ -5,14 +5,13 @@ tags:
 disableToc: false
 ---
 
-### Why Use OpenAPI to generate client api sdks?
-Building sdks becomes an integral part of the developer experience because they: 
-
+### Why use OpenAPI?
+As a tool, OpenAPI allows you to generate client SDKs for your API across dozens of supported languages. Building SDKs are an integral part of the developer experience because they: 
 - Save huge amounts of development time
 - Dramatically reduce "time to first API call"
 - Embed optimization & best practices into API usage
 
-### [[node]] SDK - Local Generation & Upload
+### Generate Node SDK with OpenAPI and Publish to GitLab Registry
 This documentation was developed using this GitLab [documentation](https://docs.gitlab.com/ee/user/packages/npm_registry/#use-the-gitlab-endpoint-for-npm-packages)
 
 1. Create a Temporary Project Access Token with full permissions for testing the SDK upload to Gitlab Registry locally

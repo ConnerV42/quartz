@@ -13,7 +13,7 @@ disableToc: false
 > A common use for multiple workspaces is to create a parallel, distinct copy of a set of infrastructure in order to test a set of changes before modifying the main production infrastructure. For example, a developer working on a complex set of infrastructure changes might create a new temporary workspace in order to freely experiment with changes without affecting the default workspace.
 ## Automation
 - [Automating Terraform](https://learn.hashicorp.com/tutorials/terraform/automate-terraform)
-> ### Plan and Apply on different machines
+> ### Pass `terraform plan` output to `terraform apply` in CI
 > When running in an orchestration tool, it can be difficult or impossible to ensure that the `plan` and `apply` subcommands are run on the same machine, in the same directory, with all of the same files present.
 ## Terraform Commands
 - `terraform refresh` is effectively an alias for `terraform apply -refresh-only -auto-approve` which is why it should _NEVER_ be used. It is far too risky to run `terraform refresh` without first reviewing the proposed state changes.

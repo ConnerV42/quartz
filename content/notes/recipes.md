@@ -1,5 +1,5 @@
 ---
-title: "Recipe Wiki"
+title: "Recipes"
 tags:
 - recipe
 disableToc: true
