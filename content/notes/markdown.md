@@ -5,6 +5,9 @@ tags:
 disableToc: false
 ---
 
+## Embedding Repl's
+<iframe frameborder="0" width="100%" height="500px" src="https://replit.com/@replit/Java?embed=true"></iframe>
+
 ## Line Breaks
 Adding a line break tag: `<br></br>  (+2 spaces + newline)` <br></br>  
 New Paragraph

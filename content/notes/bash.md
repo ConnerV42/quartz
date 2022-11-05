@@ -8,6 +8,12 @@ tags:
 - scripting
 disableToc: false
 ---
+
+## Helpful Links
+- [Bash Hacker's Wiki](https://wiki.bash-hackers.org/)
+- [Wooledge's Wiki](https://mywiki.wooledge.org/BashFAQ)
+- [Shell Script Best Practices, from a decade of scripting things](https://sharats.me/posts/shell-script-best-practices/)
+
 ## Infinite Loop
 Because sometimes it's just necessary to have an infinite loop.
 
@@ -29,10 +35,10 @@ done
 arg1=$1
 arg2=$2
 
-##directory where jar file is located    
+## Directory where jar file is located    
 dir=/directory-path/to/jar-file/
 
-##jar file name
+## Jar file name
 jar_name=app.jar
 
 ## Permform some validation on input arguments, one example below
@@ -58,7 +64,7 @@ chmod u+x /usr/local/bin/test.sh
 [Set -euxo pipefail](http://blog.kablamo.org/2015/11/08/bash-tricks-eux/)
 
 ## Bash script
-Bash script for quickly generating AWS session credentials for a role in a [[spring-boot]] application-OVERRIDES.properties for local development.
+Bash script for quickly generating AWS session credentials for a role in a spring boot application.properties file for local development.
 
 ```bash
 #!/bin/bash  

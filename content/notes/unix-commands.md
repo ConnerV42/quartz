@@ -74,7 +74,9 @@ ifconfig -a
 - `chown -h USER:GROUP jre` if you want to change the ownership of the symlink itself, not the destination directory
  
 ## What's using this port?
-- Handly command on MacOS to check what's taking up a port
+- Handy command for Mac to check what process is using a port 
 ```
 sudo lsof -i :3306
 ```
+- If you're on Mac You can also look up and stop processes via the Activity Monitor GUI.
+	- If you wanted to stop a `java` process, for example, you could go to the `Disk` section, and filter by `java` processes.

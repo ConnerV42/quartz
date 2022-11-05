@@ -21,11 +21,16 @@ git stash save -u "stash message"
 git stash list
 ```
 --- 
+- Peek at a stash
+```bash
+git stash show -p stash@{0}
+```
+--- 
 - Apply stash by id (Doesn't delete from stash)
 ```bash
 git stash apply stash@{0}
 ```
---- 
+---
 - Unstash a single, specific file from a stash
 ```bash
 git diff stash@{0}^1 stash@{0} -- <filename>
@@ -68,6 +73,22 @@ git reset --hard
 - To delete a local branch
 ```shell
 git branch -d <local-branch>
+```
+
+### I committed the deletion and then I did more commits
+If you deleted a file, committed, then continued work and did more commits, only to find that deleting the file was a mistake, Git still has you covered! To find the right commit, first check the history for the deleted file:
+```
+$ git log -- <filename>
+```
+
+You can either work with the last commit that still had the file, or the commit that deleted the file. In the first case, just checkout the file from that commit:
+```
+$ git checkout <commit hash> -- <filename>
+```
+
+In the second case, checkout the file from one commit _before_ that:
+```
+$ git checkout <deletion commit hash>~1 -- <filename>
 ```
 ---
 ## Merging
@@ -122,6 +143,7 @@ git shortlog -sne
 ```
 --- 
 
-
+## Resources
+- [Restoring Deleted Files](https://www.git-tower.com/learn/git/faq/restoring-deleted-files)
 - git cheat sheet:
 - https://gitexplorer.com/

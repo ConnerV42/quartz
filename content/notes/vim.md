@@ -17,6 +17,8 @@ The following command sorts all lines and removes duplicate lines:
 :sort u
 ```
 
+https://stackoverflow.com/questions/26981192/how-do-i-remove-non-duplicate-lines-in-vim
+
 ### Search Commands
 Search for lines containing this pattern `- **`: `?` + `- \*\*`
 

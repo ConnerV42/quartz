@@ -33,8 +33,11 @@ CMD ["java", "-jar", "/app.jar"]
 ## Useful Commands
 - `docker container ls` lists all running containers
 - `docker container ls -a` lists all containers
+- `docker container prune`  add -f or --force to not prompt for confirmation
 - `docker images` lists all images that are present locally
 - `docker image rm IMAGE_ID` to remove an image
+- `docker image prune`  add -f or --force to not prompt for confirmation
+- `docker system df` shows disk usage and size of 'Build Cache'
 
 You can run an interactive shell container using that image and explore whatever content that image has. For instance:
 ```

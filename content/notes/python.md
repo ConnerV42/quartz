@@ -6,6 +6,9 @@ tags:
 disableToc: false
 ---
 
+## Useful Links
+- [Pypi: Find, install and publish Python packages](https://pypi.org/)
+
 ## Python Virtual Environment Setup
 
 Using **venv**, you can easily work with multiple projects with various dependencies on the same machine at the same time.

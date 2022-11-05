@@ -40,3 +40,5 @@ tfenv install 1.0.0
 tfenv use 1.0.0
 terraform version # verify you're using the right version
 ```
+
+- If you place a `.terraform-version` hidden file at the root of your terraform directory, `tfenv install` (no argument) will install the version written in it.
