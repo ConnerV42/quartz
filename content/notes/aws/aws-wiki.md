@@ -68,8 +68,8 @@ disableToc: false
 - [AWS Step Functions](/notes/aws/aws-step-functions.md)
 
 ### S3
-- [S3](/notes/aws/s3.md)
-- [S3 Select](/notes/aws/s3-select.md)
+- [S3](/notes/aws/s3/s3.md)
+- [S3 Select](/notes/aws/s3/s3-select.md)
 - [Macie](/notes/aws/macie.md) - ML-based Data Classification in S3
 
 ### Resource Provisioning and Deployment Automation

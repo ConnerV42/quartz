@@ -37,7 +37,6 @@ disableToc: false
 - [Nix](https://nixos.org/)
 	- [ant-dateutils example](https://github.com/vlktomas/nix-examples/tree/master/desktop/Java/ant-dateutils)
 ## Documentation
-- [Markdown](/notes/markdown.md)
 - [OpenAPI](/notes/openapi.md)
 ### Architecture Diagrams
 - [PlantUML](https://plantuml.com/) (Architecture Diagrams as Code)
