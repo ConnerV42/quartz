@@ -5,8 +5,7 @@ tags:
 disableToc: false
 ---
 
-# #aws wiki
-
+## AWS Wiki
 
 ### Helpful Links
 - [AWS Pricing Calculator](https://calculator.aws/#/)
