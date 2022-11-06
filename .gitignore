@@ -3,6 +3,7 @@ public
 resources
 .idea
 content/.obsidian
+content/.trash
 content/private/**
 data/linkIndex.yaml
 data/contentIndex.yaml
