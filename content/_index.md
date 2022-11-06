@@ -10,4 +10,5 @@ You can perform a full text search by typing `ctrl + k`.
 Each new post (or update to an existing post) can be found in [here](/notes).
 
 - [Software Engineering Wiki](/notes/software-engineering.md)
+- [AWS Wiki](/notes/aws/aws-wiki.md)
 - [Recipes](/notes/recipes.md)
